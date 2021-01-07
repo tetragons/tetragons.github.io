@@ -15,14 +15,15 @@
     color: red
   }
   html {
-    background-color: #000000;
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    font-family: 'Source Sans Pro', sans-serif;
   }
 
   body{
     width: 600px;
-    margin: 0 auto;
-    background-color: #10152D;
-    padding: 20px 20px 30px 20px;
+    margin: 20px auto 340px auto;
+    background-color: rgba(16, 32, 45, 0.25);
+    padding: 20px 20px 50px 20px;
     border: 2px solid #9000CE;
   }
 
@@ -30,4 +31,11 @@
     display: block;
     width: 200px;
     margin: 10px auto;
+  }
+
+  #navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
   }

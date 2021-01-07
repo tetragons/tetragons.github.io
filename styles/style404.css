@@ -2,6 +2,7 @@ h1{
  margin: 50px;
  color: #FFFFFF;
  font-size: 100px;
+ font-family: 'Source Sans Pro', sans-serif;
  text-align: center;
 }
 html {
@@ -12,7 +13,9 @@ img {
   margin: 10px auto;
 }
 a {
+  margin: 50px auto;
   text-align: center;
   display: block;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #FFDD00;
 }
