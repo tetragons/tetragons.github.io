@@ -1,0 +1,33 @@
+  p, li {
+    color: #4F30FF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+   h1{
+    margin: 0;
+    color: #FFC700;
+    font-size: 60px;
+    text-shadow: 3px 3px 10px black;
+    text-align: center;
+  }
+  a {
+    color: red
+  }
+  html {
+    background-color: #000000;
+  }
+
+  body{
+    width: 600px;
+    margin: 0 auto;
+    background-color: #10152D;
+    padding: 20px 20px 30px 20px;
+    border: 2px solid #9000CE;
+  }
+
+  img {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+  }
