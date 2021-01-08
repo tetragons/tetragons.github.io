@@ -34,6 +34,10 @@ img {
   margin: 10px auto;
 }
 
+li#navbar {
+  float: left;
+}
+
 
 li#navbar a#navbarlink {
   display: block;
