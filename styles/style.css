@@ -15,7 +15,7 @@ a {
   color: red
 }
 html {
-
+  font-family: sans-serif;
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 
 }
