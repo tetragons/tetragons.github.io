@@ -1,0 +1,89 @@
+html{
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+
+}
+
+
+h1{
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight:  700;
+}
+
+h2{
+
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+body{
+  width: 1000px;
+  height: auto;
+  margin: 60px 50px 900px 50px;
+  background-color: rgba(16, 32, 45, 0.3);
+  padding: 20px 20px 50px 20px;
+  border: 2px solid white;
+}
+
+p {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: left;
+  font-size: 20px;
+  color:white;
+}
+
+
+ul#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+li#navbar {
+  float: left;
+}
+
+li#navbar a#navbarlink {
+  display: block;
+  padding: 5px;
+  color: rgba(180, 180, 180, 1);
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li#navbar a#navbarlink:hover {
+  background-color: #111;
+  color: white;
+}
+
+.twitter {
+position: absolute;
+width: 400px;
+height: 300px;
+}
+.sidenav {
+  position:relative;
+     float:right;
+     top:-65px;
+     width: 400px;
+     height: 625px;
+     left: 500px;
+     background: rgba(16, 32, 45, 0.3);
+     border: 2px solid white;
+     padding: 10px 10px 10px 10px;
+}
