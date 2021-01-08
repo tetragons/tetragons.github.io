@@ -36,8 +36,8 @@ img {
 
 ul#navbar {
 
-  overflow: hidden;
-
+  margin: 0;
+  padding: 0;
 
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
@@ -60,5 +60,5 @@ li#navbar a#navbarlink {
 
 li#navbar a#navbarlink:hover {
   background-color: #111;
-  color: white;
+  color: green;
 }
