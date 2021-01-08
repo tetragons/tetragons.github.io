@@ -15,13 +15,14 @@
     color: red
   }
   html {
+    font-family: sans-serif;
     background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
 
   }
 
   body{
     width: 600px;
-    margin: 20px auto 340px auto;
+    margin: 55px auto 340px auto;
     background-color: rgba(16, 32, 45, 0.25);
     padding: 20px 20px 50px 20px;
     border: 2px solid #9000CE;
@@ -33,9 +34,33 @@
     margin: 10px auto;
   }
 
-  #navbar {
+  ul#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  li#navbar {
+    float: left;
+  }
+
+  li#navbar a#navbarlink {
+    display: block;
+    padding: 5px;
+    color: rgba(180, 180, 180, 1);
+
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li#navbar a#navbarlink:hover {
+    background-color: #111;
     color: white;
   }
