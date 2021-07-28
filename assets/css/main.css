@@ -2718,15 +2718,15 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #7F7F7F;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #7F7F7F;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #7F7F7F;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
