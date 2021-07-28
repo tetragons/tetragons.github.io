@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #c9c9c9;
+		border-left: solid 4px #83EFEF;
 		font-style: italic;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
@@ -269,7 +269,7 @@ input, select, textarea {
 	code {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px #83EFEF;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -292,7 +292,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #c9c9c9;
+		border-bottom: solid 1px #83EFEF;
 		margin: 2em 0;
 	}
 
@@ -2267,7 +2267,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #FFFFFF;
+			background: #83EFEF;
 			border-color: #FFFFFF;
 			color: #ffffff;
 			content: '\f00c';
@@ -2291,7 +2291,7 @@ input, select, textarea {
 
 	.box {
 		border-radius: 4px;
-		border: solid 1px #c9c9c9;
+		border: solid 1px #83EFEF;
 		margin-bottom: 2em;
 		padding: 1.5em;
 	}
@@ -2528,7 +2528,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #FFFFFF;
+			background-color: #83EFEF;
 			color: #ffffff !important;
 		}
 
@@ -2545,7 +2545,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: #83EFEF;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2706,15 +2706,15 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #;
+				background-color: #7F7F7F;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #7F7F7F;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #7F7F7F;
 			}
 
 			.tiles article.style4 > .image:before {
@@ -2738,7 +2738,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0.35;
+					opacity: 0.3;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
@@ -2988,7 +2988,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #FFFFFF;
+		background: #4C4C4C;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3204,11 +3204,11 @@ input, select, textarea {
 				margin-top: 5em;
 				list-style: none;
 				font-size: 0.8em;
-				color: rgba(88, 88, 88, 0.5);
+				color: #FFFFFF;
 			}
 
 				#footer > .inner .copyright a {
-					color: inherit;
+					color: #83EFEF;
 				}
 
 				#footer > .inner .copyright li {
